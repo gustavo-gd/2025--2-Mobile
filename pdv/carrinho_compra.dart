@@ -8,7 +8,7 @@ import 'item_compra.dart';
     }
     double calcularTotal(){
         double total = 0;
-        for ( var item = 0 in itens){
+        for ( var item in itens){
             total += item.calcularSubTotal();
         }
         return total;
